@@ -40,7 +40,7 @@ def build_vaccinations_map(vaccinations_current):
 
 	layout = {
 		'title': go.layout.Title({
-			'text': 'Global Covid Vaccination Rates',
+			'text': 'Global Covid Vaccination Rates<br><sup>Percent of population with at least one dose of the COVID-19 vaccine</sup>',
 			'font': {
 				'color': 'white'
 			}
