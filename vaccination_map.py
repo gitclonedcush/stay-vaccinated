@@ -54,10 +54,9 @@ def build_vaccinations_map(vaccinations_current):
 		),
 		'height': 1000,
 		'width': 1400,
-		'plot_bgcolor': 'rgba(0,0,0,0.9)',
-		'paper_bgcolor': 'rgba(0,0,0,0.9)',
+		'paper_bgcolor': 'rgba(24,24,24,1)',
 		'geo': go.layout.Geo({
-			'bgcolor': 'rgba(0,0,0,0.9)',
+			'bgcolor': 'rgba(24,24,24,1)',
 			'showocean': True,
 			'oceancolor': 'rgba(51,153,255,0.9)',
 			'showland': True,
